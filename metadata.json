@@ -1,0 +1,5 @@
+{
+  "name": "FinSight - Manufacturing Analyzer",
+  "description": "A financial analysis dashboard specifically designed for the electronics manufacturing sector, visualizing 10 key performance indicators across 4 dimensions.",
+  "requestFramePermissions": []
+}
