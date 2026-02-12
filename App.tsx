@@ -83,7 +83,7 @@ const App: React.FC = () => {
                 </div>
               </div>
 
-              {/* Changed grid-cols-3 to grid-cols-2 to make charts wider */}
+              {/* Layout: 2 columns on large screens to accommodate chart width safely */}
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
                 {dimension.indicators.map((indicator) => (
                   <IndicatorCard 

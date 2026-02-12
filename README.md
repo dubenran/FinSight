@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FinSight - Financial Analyzer
 
-# Run and deploy your AI Studio app
+An interactive financial analysis dashboard for manufacturing stocks, built with React, Vite, and Recharts.
 
-This contains everything you need to run your app locally.
+## 🚀 How to Run Locally
 
-View your app in AI Studio: https://ai.studio/apps/drive/1R0LAY_JY_mfYxoUSj79igpCNXACX_Jpd
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Run Locally
+2. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+   Open http://localhost:5173 to view it in the browser.
 
-**Prerequisites:**  Node.js
+## 📦 How to Deploy
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Option 1: Vercel (Recommended)
+1. Push this code to a GitHub repository.
+2. Import the repository on [Vercel](https://vercel.com).
+3. Vercel will auto-detect Vite. Click **Deploy**.
